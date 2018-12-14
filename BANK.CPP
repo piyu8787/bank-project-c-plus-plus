@@ -80,6 +80,7 @@ void main()
 		cout<<"\n4.Exit";
 		cout<<"\nEnter Your option:";
 		cin>>q;
+		cout<<"\n";
 		switch(q)
 		{
 			case 1:
@@ -93,6 +94,6 @@ void main()
 		}
 	}
 	while(q!=4);
-	cout<<"thank you for Banking";
+	cout<<"Thank you for Banking";
 	getch();
 }
