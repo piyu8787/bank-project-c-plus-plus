@@ -10,7 +10,7 @@ class A
 	public:
 	void getdata()
 	{
-		cout<<"Enter information\n";
+		cout<<"Account Information\n";
 
 		cout<<"Enter your Name:";
 		gets(name);
@@ -31,7 +31,8 @@ class A
 		cin>>b;
 
 		amount=amount+b;
-
+		cout<<"The amount"<<b<<"is deposite"<<endl;
+		cout<<"Current Amount:"<<amount;
 		cout<<"\nThank you";
 
 	}
@@ -45,7 +46,8 @@ class A
 		cin>>a;
 
 		amount=amount-a;
-
+		cout<<"The amount"<<a<<"id withdraw"<<endl;
+		cout<<"Current Amount:"<<amount;
 		cout<<"\nThank you\n";
 
 	}
@@ -82,11 +84,9 @@ void main()
 		{
 			case 1:
 				p.deposite();
-				p.display();
 				break;
 			case 2:
 				p.withdraw();
-				p.display();
 				break;
 			case 3:
 				p.display();
